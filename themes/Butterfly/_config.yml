@@ -5,15 +5,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  首页: / || fa fa-home
+  文章: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  链接: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  列表||fa fa-list:
+    - 音乐 || /music/ || fa fa-music
+    - 电影 || /movies/ || fa fa-film
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -48,8 +48,8 @@ copy:
 #   icon: link || the description
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127 || Github
-  fa fa-envelope: mailto:xxxxxxx@gmail.com || Email
+  fa fa-github: https://github.com/mengmwq || Github
+  fa fa-envelope: 535959887@qq.com || Email
   fa fa-rss: /atom.xml || RSS
 
 ####    search    ####
@@ -107,7 +107,7 @@ favicon: /img/favicon.png
 # Post info settings
 # ---------------
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.jpg
   effect: false # 頭像會一直轉圈
 
 # the banner image of index
@@ -436,18 +436,18 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: false
-  mobile: false # false 手機端不顯示 true 手機端顯示
+  enable: true
+  mobile: true # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
-  mobile: false # false 手機端不顯示 true 手機端顯示
+  mobile: true # false 手機端不顯示 true 手機端顯示
 
 # 打字效果
 activate_power_mode:
@@ -459,11 +459,11 @@ activate_power_mode:
 # 避免卡頓，建議只開啟一個
 # 點擊煙火特效
 fireworks:
-  enable: false
+  enable: true
 
 # 點擊出現愛心
 click_heart:
-  enable: false
+  enable: true
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
@@ -481,7 +481,7 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -584,7 +584,7 @@ runtimeshow:
 translate:
   enable: true
   # 默認按鈕顯示文字
-  default: 繁
+  default: 简
   #網站默認語言，1: 繁體中文, 2: 簡體中文
   defaultEncoding: 2
   #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
@@ -592,9 +592,9 @@ translate:
   #博客網址
   cookieDomain: 'https://xxx/'
   #當文字是簡體時，按鈕顯示的文字
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: '简'
   #當文字是繁體時，按鈕顯示的文字
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '简'
 
 #閲讀模式
 readmode:
@@ -767,3 +767,24 @@ CDN:
 
   # 簡繁轉換
   translate: /js/tw_cn.js
+
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-nito
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: hello  孟健康
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 孟健康
 language: en
 timezone: ''
 
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -98,6 +98,7 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: 'git@github.com:mengmwq/mengmwq.github.io.git'
-  branch: 'master'
+  type: git
+  repo: git@github.com:mengmwq/mengmwq.github.io.git
+  branch: master
+
