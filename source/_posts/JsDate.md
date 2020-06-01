@@ -1,6 +1,7 @@
 
 ---
-title: js Data 对象
+title: js Date 对象
+cover: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=269792488,3576438332&fm=26&gp=0.jpg
 ---
 
 `Date`对象是`javascrip`t`原生的时间库，它以国际标准时间（UTC）1970年1月1日00:00:00作为时间的零点，可以表示的时间范围是前后各1亿天（单位为毫秒）。

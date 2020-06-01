@@ -1,5 +1,6 @@
 ---
 title: CSSflex布局
+cover: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1926733547,49449226&fm=15&gp=0.jpg
 ---
 
 

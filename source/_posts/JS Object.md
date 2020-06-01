@@ -1,5 +1,6 @@
 ---
 title: JS Object 对象
+cover: https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4081892624,1811108460&fm=15&gp=0.jpg
 ---
 
 JavaScript 原生提供`Object`对象。

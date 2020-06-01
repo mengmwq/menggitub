@@ -1,5 +1,6 @@
 ---
 title: JS包装对象
+cover : https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1497111760,1419881157&fm=26&gp=0.jpg
 ---
 # 包装对象
 

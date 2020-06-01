@@ -160,7 +160,7 @@ error_404:
 
 post_meta:
   page:
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     categories: true # true or false 主頁是否顯示分類
     tags: false # true or false 主頁是否顯示標籤
   post:
@@ -300,8 +300,7 @@ facebook_comments:
 # ------------------------------------
 since: 2020
 
-footer_custom_text:
-
+footer_custom_text: Hi ,welcome to my  <a href="https://mengmwq.github.io/">blog</a>!
 footer_copyright:
   enable: true
 
@@ -373,11 +372,11 @@ related_post:
 
 # figcaption
 # 圖片描述文字
-photofigcaption: false
+photofigcaption: true
 
 # anchor
 # when you scroll in post, the url will update according to header id.
-anchor: false
+anchor: true
 
 ####    美化/效果    ####
 #--------------------------------
@@ -436,8 +435,8 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: true
-  mobile: true # false 手機端不顯示 true 手機端顯示
+  enable: false
+  mobile: false # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -447,7 +446,8 @@ canvas_nest:
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
-  mobile: true # false 手機端不顯示 true 手機端顯示
+  mobile: fasle
+   # false 手機端不顯示 true 手機端顯示
 
 # 打字效果
 activate_power_mode:
@@ -522,8 +522,8 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 每天进步一点点……
+    - Make a little progress every day
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標

@@ -1,5 +1,6 @@
 ---
 title: Array对象
+cover: http://img5.imgtn.bdimg.com/it/u=675306745,1598314960&fm=11&gp=0.jpg
 ---
 
 `Array`是`javascript`的原生对象，同时也是一个构造函数。可以用它生成新的数组.
