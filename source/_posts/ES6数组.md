@@ -199,7 +199,8 @@ let arr = [...map.keys()]; // [1, 2, 3]
 # Array.from()
 `Array.from`方法用于将两类对象转为真正的数组：类似数组的对象（array-like object）和可遍历（iterable）的对象（包括ES6新增的数据结构Set和Map）。
 下面是一个类似数组的对象，Array.from将它转为真正的数组。
-```javascriptlet 
+```javascript
+let 
 arrayLike = {
     '0': 'a',
     '1': 'b',
@@ -483,4 +484,9 @@ for (let i of arr) {
 [,'a'].find(x => true) // undefined
 // findIndex()
 [,'a'].findIndex(x => true) // 0
+```
+# fill
+
+```javascript
+console.log('fill-7',[1,'a',undefined].fill(7))  //[7,7,7]
 ```

@@ -48,7 +48,7 @@ copy:
 #   icon: link || the description
 # ---------------
 social:
-  fa fa-github: https://github.com/mengmwq || Github
+  fa fa-github: Github
   fa fa-envelope: 535959887@qq.com || Email
   fa fa-rss: /atom.xml || RSS
 
