@@ -91,18 +91,17 @@ export default {
     },    
 }
 </script>
-
-
 // 子组件
 
 export default {
     props: {
     // 接收
         form: {
-            type: Object,
+            type: Object,//类型是一个对象或者数组时，默认值必须是函数
             default: {
                 name: '',
-            }
+            }， // 默认值
+           required：true,//是否必传
         }
     },
 }
