@@ -420,7 +420,7 @@ var router = new VueRouter({
 
 ```
 #获取
-```javascript
+```javascript 
 this.$route.query.id
 ```
 ```javascript
@@ -430,7 +430,16 @@ prop:[foo]
 
 ```
 
-#  
+# 父子组件的访问方式
+子访问父  $parents
+
+# slot  插槽
+1. 匿名插槽
+```javascript
+<div>
+<slot></slot>
+</div>
+```
 
 
 
