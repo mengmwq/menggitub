@@ -1,0 +1,87 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-04 11:37:47
+ * @LastEditTime: 2020-12-04 16:16:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \mengmwq.github.io\source\_posts\1.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  // var [a, b, c] = [1, 2, 3]
+  // var [a, [b, c]] = [1, 2, 3]
+  // var [a, ...c] = [1, 2, 3]
+  // var [v = 'd', b, c, d = 'de'] = [1, 2, 3, 4, 5]
+  // console.log(v, 'v')
+  // console.log(b, 'b')
+  // console.log(c, 'c')
+  // console.log(d, 'd')
+  /**
+   * @description: 
+   * @param {对象的结构赋值}
+   * @return {*}
+   */
+
+  // var obj = {
+  //   a: 1,
+  //   b: 2
+  // }
+  // let { a: A, b } = obj  //把a找到赋值 A
+  // console.log(A, 'a')
+  // console.log(b, 'b')
+  // //真实项目
+  // let res = {
+  //   status: 200,
+  //   id: 12,
+  //   data: [{
+  //     name: '1',
+  //     b: 'hehh'
+  //   }]
+  // }
+  // var { status, id, data } = res
+  // if (status) {
+
+  // }
+
+  /**
+   * @description:symbol
+   * @param {*}
+   * @return {*}
+   */
+  /*  undefined null string Boolean Number Object */
+
+
+
+  /**
+   * @description: proxy
+   * @param {*}
+   * @return {*}
+   */
+
+  var user = new Proxy({}, {
+    get: function (obj, prop) {
+      return obj.fname + ' ' + obj.lastname
+    }
+  })
+  user.fname = 'b'
+  user.lastname = 'b'
+  console.log(user.fullname)
+  console.log(user.age)
+
+
+
+
+</script>
+
+</html>

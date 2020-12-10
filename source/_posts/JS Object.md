@@ -382,3 +382,37 @@ obj.hasOwnProperty('toString') // false
 
 ```
 上面代码中，对象obj自身具有p属性，所以返回true。toString属性是继承的，所以返回false。
+# 实例
+```javascript
+
+  var archivedList = [{
+    time: '2020-11-27'
+  }, {
+    time: '2020-11-15'
+  }, {
+    time: '2020-10-15'
+  }, {
+    time: '2020-9-20'
+  }]
+
+  var newMyList = {};
+
+  archivedList.forEach((item) => {
+    const time = item.time.split('-');
+    console.log(time)
+
+    const b_time = `${time[0]}-${time[1]}`;
+    console.log(newMyList.hasOwnProperty(b_time));
+    console.log(b_time)
+    if (!newMyList[b_time]) {
+      newMyList[b_time] = { ym: b_time };
+      newMyList[b_time].children = [];
+    }
+    newMyList[b_time].children.push({
+      d: time[3]
+    })
+
+  })
+
+  console.log(Object.values(newMyList));
+```
